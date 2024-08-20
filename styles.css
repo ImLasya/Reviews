@@ -1,0 +1,117 @@
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f5f8; /* Light background color similar to the screenshot */
+}
+
+/* Title styling */
+.title {
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.underline {
+    width: 80px;
+    height: 4px;
+    background-color: #1d72b8; /* Blue color similar to the screenshot */
+    margin: 8px auto 0;
+}
+
+/* Review article styling */
+.review {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Image container styling */
+.img-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 16px;
+    border: 4px solid #1d72b8; /* Blue border around the image */
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text styling */
+h4 {
+    margin-bottom: 4px;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+#job {
+    margin-bottom: 16px;
+    font-size: 0.875rem;
+    color: #1d72b8; /* Blue color for job title */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#info {
+    font-size: 0.875rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Button container styling */
+.btn-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #1d72b8;
+    margin: 0 10px;
+}
+
+.btn-container button:hover {
+    color: #333;
+}
+
+
+/* Random button styling */
+#random-btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    border: 2px solid #1d72b8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #1d72b8;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#random-btn:hover {
+    background-color: #1d72b8;
+    color: white;
+}
